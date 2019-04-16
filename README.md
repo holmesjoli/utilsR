@@ -2,6 +2,13 @@
 
 The utilsR package contains general utility functions for R
 
+## Col Types
+
+Tests pandas series for column types.
+
+* `test_vec_str`: Tests if the vector is a string
+* `test_vec_num`: Tests if the vector is number
+* `test_vec_bool`: Tests if the vector is boolean
 
 ## Config
 
