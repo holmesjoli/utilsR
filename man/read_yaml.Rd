@@ -16,5 +16,5 @@ a nested list
 Reads a yaml file
 }
 \examples{
-config <- read_yaml('C:/Documents/config.yaml')
+config <- read_yaml('./tests/testthat/test.yaml')
 }

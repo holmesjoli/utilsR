@@ -2,10 +2,10 @@
 % Please edit documentation in R/logs.R
 \name{close_log}
 \alias{close_log}
-\title{Closes a log file}
+\title{Closes the open log file}
 \usage{
 close_log()
 }
 \description{
-Closes a log file
+Closes the open log file
 }

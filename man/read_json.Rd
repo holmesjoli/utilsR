@@ -16,5 +16,5 @@ a nested list
 Reads a json file
 }
 \examples{
-config <- read_json('C:/Documents/config.json')
+config <- read_json('./tests/testthat/test.json')
 }

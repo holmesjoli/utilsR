@@ -13,7 +13,6 @@ open_log(fl)
 Opens a log file
 }
 \examples{
-
 fl <- 'test_log.log'
 open_log(fl)
 }
