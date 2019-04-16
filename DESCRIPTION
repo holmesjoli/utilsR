@@ -1,0 +1,15 @@
+Package: utilsR
+Type: Package
+Title: R utility functions
+Version: 0.0.0.9999
+Author: Joli Holmes
+Maintainer: Joli Holmes <holmesjoli@gmail.com>
+Description: Contains basic utilty functions.
+License: 
+Encoding: UTF-8
+LazyData: true
+Imports:
+  yaml,
+  json,
+  roxygen2
+RoxygenNote: 6.1.1
