@@ -22,5 +22,9 @@ read_json <- function(pth){
   #' @examples
   #' config <- read_json("C:/Documents/config.json")
   
+  
+  config <- rjson::fromJSON(file = file.path(pth))
+
+  return(config)
 
 }
