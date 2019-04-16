@@ -6,13 +6,13 @@ create_files <- function(fls) {
     #' @examples
     #' fls <- c('test.txt', 'test_log.txt')
     #' create_files(fls)
-
+    
     for (fl in fls) {
         if (!file.exists(fl)) {
             file.create(fl)
         }
     }
-
+    
 }
 
 create_dirs <- function(dirs) {
@@ -21,13 +21,13 @@ create_dirs <- function(dirs) {
     #' @examples
     #' dirs <- c('Current', 'Archive')
     #' create_dirs(dirs)
-
+    
     for (dir in dirs) {
         if (!dir.exists(dir)) {
             dir.create(dir)
         }
     }
-
+    
 }
 
 remove_files <- function(fls) {
@@ -36,13 +36,13 @@ remove_files <- function(fls) {
     #' @examples
     #' fls <- c('test.txt', 'test_log.txt')
     #' remove_files(fls)
-
+    
     for (fl in fls) {
         if (file.exists(fl)) {
             file.remove(fl)
         }
     }
-
+    
 }
 
 remove_dirs <- function(dirs) {
@@ -51,7 +51,7 @@ remove_dirs <- function(dirs) {
     #' @examples
     #' dirs <- c('Current', 'Archive')
     #' remove_dirs(dirs)
-
+    
     for (dir in dirs) {
         if (dir.exists(dir)) {
             unlink(dir, recursive = TRUE)
