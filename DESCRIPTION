@@ -10,6 +10,6 @@ Encoding: UTF-8
 LazyData: true
 Imports:
   yaml,
-  json,
+  rjson,
   roxygen2
 RoxygenNote: 6.1.1
