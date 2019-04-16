@@ -1,0 +1,8 @@
+# This is a YAML file
+# Make sure with YAML files to use spaces and not tabs and leave a final line without any spaces or tabs
+
+test1:
+  test_var1: 1
+  test_var2: [1,2,2,2]
+
+test2: x
