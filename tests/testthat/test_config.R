@@ -1,6 +1,6 @@
-cu_yaml <- read_yaml("./test_yaml.yaml")
+cu_yaml <- read_yaml("./test.yaml")
 
-cu_json <- read_json("./test_json.json")
+cu_json <- read_json("./test.json")
 
 test_that("read_yaml reads in a yaml file", {
 
