@@ -11,5 +11,6 @@ LazyData: true
 Imports:
   yaml,
   rjson,
-  roxygen2
+  roxygen2,
+  testthat
 RoxygenNote: 6.1.1
