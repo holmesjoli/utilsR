@@ -1,5 +1,5 @@
 
-test_col_num <- function(var) {
+test_vec_num <- function(vec) {
     #' Test if the vector is numeric
     #' @param vec the vector to test
     #' @return boolean TRUE/FALSE
@@ -12,16 +12,16 @@ test_col_num <- function(var) {
     #' vec <- c('a', 'b', 'c')
     #' test_col_num(vec)
     #' ## Returns FALSE
-    
-    if (class(vec) == "numeric") {
+
+    if (class(vec) %in% c("numeric", "integer", "float")) {
         return(TRUE)
     } else {
         return(FALSE)
     }
-    
+
 }
 
-test_col_str <- function(var) {
+test_vec_str <- function(vec) {
     #' Test if the vector is a string
     #' @param vec the vector to test
     #' @return boolean TRUE/FALSE
@@ -29,17 +29,17 @@ test_col_str <- function(var) {
     #' vec <- c('a', 'b', 'c')
     #' test_col_num(vec)
     #' ## Returns TRUE
-    
-    if (class(vec) == "character") {
+
+    if (class(vec) %in% c("character", "factor")) {
         return(TRUE)
     } else {
         return(FALSE)
     }
-    
+
 }
 
 
-test_col_bool <- function(var) {
+test_vec_bool <- function(vec) {
     #' Test if the vector is a boolean
     #' @param vec the vector to test
     #' @return boolean TRUE/FALSE
@@ -47,11 +47,11 @@ test_col_bool <- function(var) {
     #' vec <- c('a', 'b', 'c')
     #' test_col_num(vec)
     #' ## Returns TRUE
-    
+
     if (class(vec) == "logical") {
         return(TRUE)
     } else {
         return(FALSE)
     }
-    
+
 }
