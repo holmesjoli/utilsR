@@ -5,12 +5,12 @@ read_yaml <- function(pth) {
     #' @param pth the path to the yaml file
     #' @return a nested list
     #' @examples
-    #' config <- read_yaml('C:/Documents/config.yaml')
-    
+    #' config <- read_yaml('./tests/testthat/test.yaml')
+
     config <- yaml::yaml.load_file(file.path(pth))
-    
+
     return(config)
-    
+
 }
 
 read_json <- function(pth) {
@@ -20,11 +20,11 @@ read_json <- function(pth) {
     #' @param pth the path to the yaml file
     #' @return a nested list
     #' @examples
-    #' config <- read_json('C:/Documents/config.json')
-    
-    
+    #' config <- read_json('./tests/testthat/test.json')
+
+
     config <- rjson::fromJSON(file = file.path(pth))
-    
+
     return(config)
-    
+
 }
