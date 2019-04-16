@@ -22,7 +22,7 @@ test_vec_num <- function(vec) {
 }
 
 test_vec_str <- function(vec) {
-    #' Test if the vector is a string
+    #' Test if the vector is a string/factor
     #' @param vec the vector to test
     #' @return boolean TRUE/FALSE
     #' @examples
