@@ -3,7 +3,7 @@ read_yaml <- function(pth){
   #'
   #' Reads a yaml file
   #' @param pth the path to the yaml file
-  #' @return a nest list
+  #' @return a nested list
   #' @examples
   #' config <- read_yaml("C:/Documents/config.yaml")
 
@@ -18,7 +18,7 @@ read_json <- function(pth){
   #'
   #' Reads a json file
   #' @param pth the path to the yaml file
-  #' @return a nest list
+  #' @return a nested list
   #' @examples
   #' config <- read_json("C:/Documents/config.json")
   
