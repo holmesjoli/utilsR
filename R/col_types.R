@@ -12,13 +12,13 @@ test_vec_num <- function(vec) {
     #' vec <- c('a', 'b', 'c')
     #' test_col_num(vec)
     #' ## Returns FALSE
-
+    
     if (class(vec) %in% c("numeric", "integer", "float")) {
         return(TRUE)
     } else {
         return(FALSE)
     }
-
+    
 }
 
 test_vec_str <- function(vec) {
@@ -29,13 +29,13 @@ test_vec_str <- function(vec) {
     #' vec <- c('a', 'b', 'c')
     #' test_col_num(vec)
     #' ## Returns TRUE
-
+    
     if (class(vec) %in% c("character", "factor")) {
         return(TRUE)
     } else {
         return(FALSE)
     }
-
+    
 }
 
 
@@ -47,11 +47,11 @@ test_vec_bool <- function(vec) {
     #' vec <- c('a', 'b', 'c')
     #' test_col_num(vec)
     #' ## Returns TRUE
-
+    
     if (class(vec) == "logical") {
         return(TRUE)
     } else {
         return(FALSE)
     }
-
+    
 }
