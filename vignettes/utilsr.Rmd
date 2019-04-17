@@ -1,0 +1,63 @@
+---
+title: "Introduction to utilsR"
+author: "Joli Holmes"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# Introduction
+
+The utilsR package rolls several different commonly utilized functions into one package. There are functions for testing column types, reading and updating configuration files, creating or removing directory structures, and creating logs.
+
+
+## Col Types
+
+Functions:
+
+* `test_vec_str`: Tests if the vector is a string
+* `test_vec_num`: Tests if the vector is number
+* `test_vec_bool`: Tests if the vector is boolean
+
+These functions can take a vector or dataframe column and reutrn `TRUE` or `FALSE`. 
+
+## Config
+
+Functions:
+
+* `read_yaml`: Reads in a yaml file
+* `read_json`: Reads in a json file
+* `update_yaml`: Updates a yaml file
+* `update_json`: Updates a json file
+
+These functions are useful to read in and then export an updated configuration file. 
+
+## Folder Structure
+
+Functions:
+
+* `create_dirs`: Creates directories in the specified list
+* `create_files`: Creates files in the specified list
+* `remove_files`: Removes files in the specified list
+* `remove_dirs`: Removes directories in the specified list
+
+These functions are useful to expedite the file structure creation.
+
+## Logging
+
+Functions:
+
+* `open_log`: Opens the log file
+* `close_log`: Closes the log file
+
+These functions are used to create log files. The log functions also initiate time, so that it's easy to know how long a script file takes to run and logs the output all in one place. 
