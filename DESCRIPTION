@@ -11,7 +11,7 @@ LazyData: true
 Depends: 
     R (>= 3.5.2)
 Imports:
-    jsonlite (>=1.6)
+    jsonlite (>= 1.6),
     rjson (>= 0.2.20),
     yaml (>= 2.2.0)
 Suggests:
