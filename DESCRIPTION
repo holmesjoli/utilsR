@@ -1,7 +1,7 @@
 Package: utilsR
 Type: Package
 Title: R utility functions
-Version: 0.0.1.0
+Version: 0.0.1
 Author: Joli Holmes
 Maintainer: Joli Holmes <holmesjoli@gmail.com>
 Description: Contains basic utilty functions.
