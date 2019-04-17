@@ -2,17 +2,19 @@ Package: utilsR
 Type: Package
 Title: R utility functions
 Version: 0.0.1
-Author: Joli Holmes
+Authors@R: person("Joli", "Holmes", email = "holmesjoli@gmail.com", role = c("aut", "cre"))
 Maintainer: Joli Holmes <holmesjoli@gmail.com>
 Description: Contains basic utilty functions.
 License: MIT
 Encoding: UTF-8
 LazyData: true
+Depends: 
+    R (>= 3.5.2)
 Imports:
-    rjson,
-    yaml,
-    utilsR
+    jsonlite (>=1.6)
+    rjson (>= 0.2.20),
+    yaml (>= 2.2.0)
 Suggests:
-  roxygen2,
-  testthat
+    roxygen2 (>= 6.1.1),
+    testthat (>= 2.0.1)
 RoxygenNote: 6.1.1
