@@ -1,10 +1,9 @@
 # About
 
 The utilsR package contains general utility functions for R
-
 ## Col Types
 
-Tests pandas series for column types.
+Functions:
 
 * `test_vec_str`: Tests if the vector is a string
 * `test_vec_num`: Tests if the vector is number
@@ -12,7 +11,7 @@ Tests pandas series for column types.
 
 ## Config
 
-Contains functions related to reading in and updating configuration files.
+Functions:
 
 * `read_yaml`: Reads in a yaml file
 * `read_json`: Reads in a json file
@@ -21,7 +20,7 @@ Contains functions related to reading in and updating configuration files.
 
 ## Folder Structure
 
-The folder structure module contains functions:
+Functions:
 
 * `create_dirs`: Creates directories in the specified list
 * `create_files`: Creates files in the specified list
@@ -30,7 +29,7 @@ The folder structure module contains functions:
 
 ## Logging
 
-The logging module contains several functions as part of the logging class:
+Functions:
 
 * `open_log`: Opens the log file
 * `close_log`: Closes the log file

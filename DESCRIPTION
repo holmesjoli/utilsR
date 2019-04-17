@@ -16,5 +16,8 @@ Imports:
     yaml (>= 2.2.0)
 Suggests:
     roxygen2 (>= 6.1.1),
-    testthat (>= 2.0.1)
+    testthat (>= 2.0.1),
+    knitr,
+    rmarkdown
 RoxygenNote: 6.1.1
+VignetteBuilder: knitr
