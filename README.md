@@ -16,6 +16,8 @@ Contains functions related to reading in and updating configuration files.
 
 * `read_yaml`: Reads in a yaml file
 * `read_json`: Reads in a json file
+* `update_yaml`: Updates a yaml file
+* `update_json`: Updates a json file
 
 ## Folder Structure
 
