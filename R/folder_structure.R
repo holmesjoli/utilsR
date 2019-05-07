@@ -1,57 +1,59 @@
 # Folder Structure functions
 
+#' @title Create files
+#' @descrpition Creates empty files in vector
+#' @param fls a vector of files to create
+#' @examples
+#' fls <- c('test.txt', 'test_log.txt')
+#' create_files(fls)
 create_files <- function(fls) {
-    #' Creates files
-    #' @param fls the files to create
-    #' @examples
-    #' fls <- c('test.txt', 'test_log.txt')
-    #' create_files(fls)
-    
+
     for (fl in fls) {
         if (!file.exists(fl)) {
             file.create(fl)
         }
     }
-    
 }
 
+#' @title Create directories
+#' @description Creates empty directories in vector
+#' @param dirs a vector of directories to create
+#' @examples
+#' dirs <- c('Current', 'Archive')
+#' create_dirs(dirs)
 create_dirs <- function(dirs) {
-    #' Creates directories
-    #' @param dirs the directories to create
-    #' @examples
-    #' dirs <- c('Current', 'Archive')
-    #' create_dirs(dirs)
-    
+
     for (dir in dirs) {
         if (!dir.exists(dir)) {
             dir.create(dir)
         }
     }
-    
 }
 
+#' @title Remove files
+#' @description Removes files in vector
+#' @param fls a vector of files to remove
+#' @examples
+#' fls <- c('test.txt', 'test_log.txt')
+#' remove_files(fls)
 remove_files <- function(fls) {
-    #' Creates files
-    #' @param fls the files to create
-    #' @examples
-    #' fls <- c('test.txt', 'test_log.txt')
-    #' remove_files(fls)
-    
+
     for (fl in fls) {
         if (file.exists(fl)) {
             file.remove(fl)
         }
     }
-    
+
 }
 
+#' @title Remove directories
+#' @description Removes directories in vector
+#' @param dirs a vector of directories to remove
+#' @examples
+#' dirs <- c('Current', 'Archive')
+#' remove_dirs(dirs)
 remove_dirs <- function(dirs) {
-    #' Removes directories
-    #' @param dirs the files to create
-    #' @examples
-    #' dirs <- c('Current', 'Archive')
-    #' remove_dirs(dirs)
-    
+
     for (dir in dirs) {
         if (dir.exists(dir)) {
             unlink(dir, recursive = TRUE)

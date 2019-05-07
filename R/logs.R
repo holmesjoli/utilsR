@@ -1,11 +1,12 @@
 hash <- paste0(paste(rep("#", 80), collapse = ""), "\n")
 
+#' @title Open log
+#' @description Opens a log file
+#' @param fl the filename of the log
+#' @examples
+#' fl <- 'test_log.log'
+#' open_log(fl)
 open_log <- function(fl) {
-    #' Opens a log file
-    #' @param fl the filename of the log
-    #' @examples
-    #' fl <- 'test_log.log'
-    #' open_log(fl)
 
     op <- options(digits.secs = 0)
     start_tm <- Sys.time()
@@ -15,10 +16,11 @@ open_log <- function(fl) {
     cat(hash)
 }
 
+#' @title Close log
+#' @description Closes the open log file
+#' @examples
+#' close_log()
 close_log <- function() {
-    #' Closes the open log file
-    #' @examples'
-    #' close_log()
 
     end_tm <- Sys.time()
     duration <- end_tm - start_tm
