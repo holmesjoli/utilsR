@@ -2,15 +2,15 @@
 % Please edit documentation in R/folder_structure.R
 \name{remove_dirs}
 \alias{remove_dirs}
-\title{Removes directories}
+\title{Remove directories}
 \usage{
 remove_dirs(dirs)
 }
 \arguments{
-\item{dirs}{the files to create}
+\item{dirs}{a vector of directories to remove}
 }
 \description{
-Removes directories
+Removes directories in vector
 }
 \examples{
 dirs <- c('Current', 'Archive')

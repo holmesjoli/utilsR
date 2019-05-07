@@ -2,7 +2,7 @@
 % Please edit documentation in R/config.R
 \name{read_json}
 \alias{read_json}
-\title{Reads a json file}
+\title{Import json}
 \usage{
 read_json(pth)
 }

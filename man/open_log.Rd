@@ -2,7 +2,7 @@
 % Please edit documentation in R/logs.R
 \name{open_log}
 \alias{open_log}
-\title{Opens a log file}
+\title{Open log}
 \usage{
 open_log(fl)
 }

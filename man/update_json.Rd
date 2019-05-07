@@ -2,7 +2,7 @@
 % Please edit documentation in R/config.R
 \name{update_json}
 \alias{update_json}
-\title{Updates a json file}
+\title{Export json}
 \usage{
 update_json(config, pth)
 }

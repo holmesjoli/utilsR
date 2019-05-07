@@ -2,7 +2,7 @@
 % Please edit documentation in R/col_types.R
 \name{test_vec_str}
 \alias{test_vec_str}
-\title{Test if the vector is a string/factor}
+\title{Test string/factor}
 \usage{
 test_vec_str(vec)
 }

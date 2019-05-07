@@ -2,15 +2,15 @@
 % Please edit documentation in R/folder_structure.R
 \name{create_files}
 \alias{create_files}
-\title{Creates files}
+\title{Create files}
 \usage{
 create_files(fls)
 }
 \arguments{
-\item{fls}{the files to create}
+\item{fls}{a vector of files to create}
 }
 \description{
-Creates files
+Create files
 }
 \examples{
 fls <- c('test.txt', 'test_log.txt')

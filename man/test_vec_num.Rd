@@ -2,7 +2,7 @@
 % Please edit documentation in R/col_types.R
 \name{test_vec_num}
 \alias{test_vec_num}
-\title{Test if the vector is numeric}
+\title{Test numeric}
 \usage{
 test_vec_num(vec)
 }

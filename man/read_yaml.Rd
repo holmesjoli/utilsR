@@ -2,7 +2,7 @@
 % Please edit documentation in R/config.R
 \name{read_yaml}
 \alias{read_yaml}
-\title{Reads a yaml file}
+\title{Import yaml}
 \usage{
 read_yaml(pth)
 }

@@ -2,15 +2,15 @@
 % Please edit documentation in R/folder_structure.R
 \name{remove_files}
 \alias{remove_files}
-\title{Creates files}
+\title{Remove files}
 \usage{
 remove_files(fls)
 }
 \arguments{
-\item{fls}{the files to create}
+\item{fls}{a vector of files to remove}
 }
 \description{
-Creates files
+Removes files in vector
 }
 \examples{
 fls <- c('test.txt', 'test_log.txt')

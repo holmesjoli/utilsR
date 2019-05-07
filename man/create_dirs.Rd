@@ -2,15 +2,15 @@
 % Please edit documentation in R/folder_structure.R
 \name{create_dirs}
 \alias{create_dirs}
-\title{Creates directories}
+\title{Create directories}
 \usage{
 create_dirs(dirs)
 }
 \arguments{
-\item{dirs}{the directories to create}
+\item{dirs}{a vector of directories to create}
 }
 \description{
-Creates directories
+Creates empty directories in vector
 }
 \examples{
 dirs <- c('Current', 'Archive')

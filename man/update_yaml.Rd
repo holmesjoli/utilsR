@@ -2,7 +2,7 @@
 % Please edit documentation in R/config.R
 \name{update_yaml}
 \alias{update_yaml}
-\title{Exports a yaml file}
+\title{Exports yaml}
 \usage{
 update_yaml(config, pth)
 }

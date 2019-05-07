@@ -2,7 +2,7 @@
 % Please edit documentation in R/col_types.R
 \name{test_vec_bool}
 \alias{test_vec_bool}
-\title{Test if the vector is a boolean}
+\title{Test boolean}
 \usage{
 test_vec_bool(vec)
 }
