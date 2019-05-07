@@ -24,7 +24,7 @@ read_json <- function(pth) {
     #' pth <- "./tests/testthat/test.json"
     #' config <- read_json(pth)
 
-    config <- rjson::fromJSON(file = file.path(pth))
+    config <- rjson::fromJSON(file = file.path(pth), simplify = FALSE)
 
     return(config)
 
