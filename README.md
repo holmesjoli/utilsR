@@ -35,4 +35,4 @@ Functions:
 * `open_log`: Opens the log file
 * `close_log`: Closes the log file
 
-`open_log` takes an argument fl, the name of the log file. The log functions also initiate time, so that it's easy to know how long a script file takes to run and logs the output all in one place. 
+`open_log` takes an argument fl, the name of the log file. The log functions also initiate time, so that it's easy to know how long a script file takes to run and logs the output all in one place.
