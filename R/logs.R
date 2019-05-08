@@ -24,6 +24,9 @@ open_log <- function(fl) {
 #' @title Close log
 #' @description Closes the open log file
 #' @examples
+#' fl <- 'test_log.log'
+#' open_log(fl)
+#' print("Hello World")
 #' close_log()
 close_log <- function() {
 
