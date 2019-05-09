@@ -3,10 +3,14 @@ cache: packages
 
 jobs:
   include:
-  - r: devel
-  - os: osx
-  - r: release
     after_success:
       - Rscript -e 'library(covr); codecov()'
+  - r: 3.2
+    warnings_are_errors: false
+  - r: 3.3
+    warnings_are_errors: false
+  - r: 3.4
+    warnings_are_errors: false
   - r: 3.5
     warnings_are_errors: false
+
