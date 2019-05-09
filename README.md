@@ -4,7 +4,6 @@
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/f1e0bbc39d9f42ab80ed22763d7dbc1c)](https://www.codacy.com/app/holmesjoli/utilsR?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=holmesjoli/utilsR&amp;utm_campaign=Badge_Grade)
 [![Build status](https://travis-ci.org/holmesjoli/utilsR.svg?branch=master)](https://travis-ci.org/holmesjoli/utilsR)
-
 [![Codecov test coverage](https://codecov.io/gh/holmesjoli/utilsR/branch/master/graph/badge.svg)](https://codecov.io/gh/holmesjoli/utilsR?branch=master)
 <!-- badges: end -->
 
