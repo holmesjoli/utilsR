@@ -2,8 +2,8 @@ language: r
 cache: packages
 
 jobs:
-  include:
-    after_success:
+  - include:
+    - after_success:
       - Rscript -e 'library(covr); codecov()'
   - r: 3.2
     warnings_are_errors: false
@@ -13,5 +13,3 @@ jobs:
     warnings_are_errors: false
   - r: 3.5
     warnings_are_errors: false
-branches:
-  - build-branch
