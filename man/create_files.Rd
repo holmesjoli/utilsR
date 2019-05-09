@@ -13,6 +13,8 @@ create_files(fls)
 Create files
 }
 \examples{
+\dontrun{
 fls <- c('test.txt', 'test_log.txt')
 create_files(fls)
+}
 }

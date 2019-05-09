@@ -16,6 +16,8 @@ a nested list
 Reads a yaml file
 }
 \examples{
+\dontrun{
 pth <- "./tests/testthat/test.yaml"
 config <- read_yaml(pth)
+}
 }

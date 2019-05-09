@@ -13,6 +13,8 @@ remove_files(fls)
 Removes files in vector
 }
 \examples{
+\dontrun{
 fls <- c('test.txt', 'test_log.txt')
 remove_files(fls)
+}
 }

@@ -16,6 +16,8 @@ a nested list
 Reads a json file
 }
 \examples{
+\dontrun{
 pth <- "./tests/testthat/test.json"
 config <- read_json(pth)
+}
 }

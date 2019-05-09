@@ -4,8 +4,10 @@
 #' @descrpition Creates empty files in vector
 #' @param fls a vector of files to create
 #' @examples
+#' \dontrun{
 #' fls <- c('test.txt', 'test_log.txt')
 #' create_files(fls)
+#' }
 create_files <- function(fls) {
 
     for (fl in fls) {
@@ -19,8 +21,10 @@ create_files <- function(fls) {
 #' @description Creates empty directories in vector
 #' @param dirs a vector of directories to create
 #' @examples
+#' \dontrun{
 #' dirs <- c('Current', 'Archive')
 #' create_dirs(dirs)
+#' }
 create_dirs <- function(dirs) {
 
     for (dir in dirs) {
@@ -34,8 +38,10 @@ create_dirs <- function(dirs) {
 #' @description Removes files in vector
 #' @param fls a vector of files to remove
 #' @examples
+#' \dontrun{
 #' fls <- c('test.txt', 'test_log.txt')
 #' remove_files(fls)
+#' }
 remove_files <- function(fls) {
 
     for (fl in fls) {
@@ -50,8 +56,10 @@ remove_files <- function(fls) {
 #' @description Removes directories in vector
 #' @param dirs a vector of directories to remove
 #' @examples
+#' \dontrun{
 #' dirs <- c('Current', 'Archive')
 #' remove_dirs(dirs)
+#' }
 remove_dirs <- function(dirs) {
 
     for (dir in dirs) {

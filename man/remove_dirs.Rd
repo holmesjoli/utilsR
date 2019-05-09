@@ -13,6 +13,8 @@ remove_dirs(dirs)
 Removes directories in vector
 }
 \examples{
+\dontrun{
 dirs <- c('Current', 'Archive')
 remove_dirs(dirs)
+}
 }

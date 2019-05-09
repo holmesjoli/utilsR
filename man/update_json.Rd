@@ -15,8 +15,10 @@ update_json(config, pth)
 Updates a json file
 }
 \examples{
+\dontrun{
 pth <- "./tests/testthat/test.json"
 config <- read_json(pth)
 config$test3 <- 3
 update_json(config, pth)
+}
 }

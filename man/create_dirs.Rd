@@ -13,6 +13,8 @@ create_dirs(dirs)
 Creates empty directories in vector
 }
 \examples{
+\dontrun{
 dirs <- c('Current', 'Archive')
 create_dirs(dirs)
+}
 }

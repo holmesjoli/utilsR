@@ -15,8 +15,10 @@ update_yaml(config, pth)
 Exports a yaml file
 }
 \examples{
+\dontrun{
 pth <- "./tests/testthat/test.yaml"
 config <- read_yaml(pth)
 config$test3 <- 3
 update_yaml(pth)
+}
 }
