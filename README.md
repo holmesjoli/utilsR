@@ -3,7 +3,7 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/f1e0bbc39d9f42ab80ed22763d7dbc1c)](https://www.codacy.com/app/holmesjoli/utilsR?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=holmesjoli/utilsR&amp;utm_campaign=Badge_Grade)
 [![Build status](https://travis-ci.org/holmesjoli/utilsR.svg?branch=master)](https://travis-ci.org/holmesjoli/utilsR)
 
-The utilsR package contains general utility functions for R.
+The utilsR package contains general utility functions for R. There are four groups of functions: column types, configuration read/update functions, creating folder structure/files, and logging functions.
 
 ## Col Types
 
