@@ -3,4 +3,8 @@ rvm:
   - 3.5.2
 r:
   - devel
-warnings_as_errors: false
+warnings_as_errors: true
+r_packages:
+  - covr
+after_success:
+  - Rscript -e 'library(covr); codecov()'
