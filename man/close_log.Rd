@@ -10,5 +10,10 @@ close_log()
 Closes the open log file
 }
 \examples{
+\dontrun{
+fl <- 'test_log.log'
+open_log(fl)
+print("Hello World")
 close_log()
+}
 }

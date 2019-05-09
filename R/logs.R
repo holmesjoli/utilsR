@@ -9,8 +9,10 @@ class(log_class) <- append(class(log_class), "log_attr")
 #' @description Opens a log file
 #' @param fl the filename of the log
 #' @examples
+#' \dontrun{
 #' fl <- 'test_log.log'
 #' open_log(fl)
+#' }
 open_log <- function(fl) {
 
     op <- options(digits.secs = 0)
@@ -24,10 +26,12 @@ open_log <- function(fl) {
 #' @title Close log
 #' @description Closes the open log file
 #' @examples
+#' \dontrun{
 #' fl <- 'test_log.log'
 #' open_log(fl)
 #' print("Hello World")
 #' close_log()
+#' }
 close_log <- function() {
 
     end_tm <- Sys.time()

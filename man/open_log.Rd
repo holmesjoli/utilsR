@@ -13,6 +13,8 @@ open_log(fl)
 Opens a log file
 }
 \examples{
+\dontrun{
 fl <- 'test_log.log'
 open_log(fl)
+}
 }
