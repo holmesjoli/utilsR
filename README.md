@@ -1,3 +1,6 @@
+
+[![Build status](https://travis-ci.org/holmesjoli/utilsR.svg?branch=master)](https://travis-ci.org/holmesjoli/utilsR)
+
 # About
 
 The utilsR package contains general utility functions for R.
