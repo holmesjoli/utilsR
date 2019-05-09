@@ -17,11 +17,6 @@ Test if the vector is numeric
 }
 \examples{
 vec <- c(1,2,3)
-test_col_num(vec)
-
+test_vec_num(vec)
 ## Returns TRUE
-
-vec <- c('a', 'b', 'c')
-test_col_num(vec)
-## Returns FALSE
 }

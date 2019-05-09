@@ -17,6 +17,6 @@ Test if the vector is a string/factor
 }
 \examples{
 vec <- c('a', 'b', 'c')
-test_col_num(vec)
+test_vec_num(vec)
 ## Returns TRUE
 }
