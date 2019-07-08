@@ -7,6 +7,7 @@
 #' pth <- "./tests/testthat/test.yaml"
 #' config <- read_yaml(pth)
 #' }
+#' @export
 read_yaml <- function(pth) {
 
     config <- yaml::yaml.load_file(file.path(pth))
@@ -23,6 +24,7 @@ read_yaml <- function(pth) {
 #' pth <- "./tests/testthat/test.json"
 #' config <- read_json(pth)
 #' }
+#' @export
 read_json <- function(pth) {
 
     config <- rjson::fromJSON(file = file.path(pth), simplify = FALSE)
@@ -41,6 +43,7 @@ read_json <- function(pth) {
 #' config$test3 <- 3
 #' update_yaml(pth)
 #' }
+#' @export
 update_yaml <- function(config, pth){
 
 
@@ -59,6 +62,7 @@ update_yaml <- function(config, pth){
 #' config$test3 <- 3
 #' update_json(config, pth)
 #' }
+#' @export
 update_json <- function(config, pth) {
 
 

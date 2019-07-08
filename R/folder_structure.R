@@ -8,6 +8,7 @@
 #' fls <- c('test.txt', 'test_log.txt')
 #' create_files(fls)
 #' }
+#' @export
 create_files <- function(fls) {
 
     for (fl in fls) {
@@ -25,6 +26,7 @@ create_files <- function(fls) {
 #' dirs <- c('Current', 'Archive')
 #' create_dirs(dirs)
 #' }
+#' @export
 create_dirs <- function(dirs) {
 
     for (dir in dirs) {
@@ -42,6 +44,7 @@ create_dirs <- function(dirs) {
 #' fls <- c('test.txt', 'test_log.txt')
 #' remove_files(fls)
 #' }
+#' @export
 remove_files <- function(fls) {
 
     for (fl in fls) {
@@ -60,6 +63,7 @@ remove_files <- function(fls) {
 #' dirs <- c('Current', 'Archive')
 #' remove_dirs(dirs)
 #' }
+#' @export
 remove_dirs <- function(dirs) {
 
     for (dir in dirs) {

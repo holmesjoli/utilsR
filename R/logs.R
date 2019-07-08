@@ -13,6 +13,7 @@ class(log_class) <- append(class(log_class), "log_attr")
 #' fl <- 'test_log.log'
 #' open_log(fl)
 #' }
+#' @export
 open_log <- function(fl) {
 
     op <- options(digits.secs = 0)
@@ -32,6 +33,7 @@ open_log <- function(fl) {
 #' print("Hello World")
 #' close_log()
 #' }
+#' @export
 close_log <- function() {
 
     end_tm <- Sys.time()
