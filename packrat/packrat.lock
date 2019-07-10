@@ -71,6 +71,12 @@ Source: CRAN
 Version: 1.7
 Hash: 77f4ba718e2bad1877ef26e48cf8fa43
 
+Package: config
+Source: CRAN
+Version: 0.3
+Hash: 00b1a8d447124dc267d0bd36796b4024
+Requires: yaml
+
 Package: covr
 Source: CRAN
 Version: 3.2.1
