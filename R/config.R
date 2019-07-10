@@ -10,7 +10,7 @@
 #' @export
 read_yaml <- function(pth) {
 
-    config <- yaml::yaml.load_file(file.path(pth))
+    config <- yaml::yaml.load_file(file.path(pth), eval.expr = TRUE)
 
     return(config)
 }
