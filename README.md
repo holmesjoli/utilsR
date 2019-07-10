@@ -26,6 +26,19 @@ Functions:
 -   `update_yaml`: Updates a yaml file
 -   `update_json`: Updates a json file
 
+Note: You can execute R code from within YAML configuration files by prefacing values with `!expr`. E.g. 
+
+```config.yaml
+x: !expr 1:10
+```
+
+```R
+config <- utilsR::read_yaml("./config.yaml")
+config$x 
+
+# prints 1  2  3  4  5  6  7  8  9 10
+```
+
 ## Folder Structure
 
 Functions:
