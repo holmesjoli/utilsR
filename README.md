@@ -60,3 +60,8 @@ Functions:
 ## General
 
 `%!in%` does the opposite of `%in%`
+
+## Convert
+ - `spss_to_csv`: converts a list of spss files to csv files
+ - `csv_to_dat`: converts a list of csv files to dat files
+ - `excel_to_dat`: converts a list of excel files to dat files
