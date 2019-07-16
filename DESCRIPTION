@@ -1,7 +1,7 @@
 Package: utilsR
 Type: Package
 Title: R utility functions
-Version: 0.0.1
+Version: 0.0.2
 Authors@R: person("Joli", "Holmes", email = "holmesjoli@gmail.com", role = c("aut", "cre"))
 Maintainer: Joli Holmes <holmesjoli@gmail.com>
 Description: Contains basic utilty functions.
