@@ -65,3 +65,6 @@ Functions:
  - `spss_to_csv`: converts a list of spss files to csv files
  - `csv_to_dat`: converts a list of csv files to dat files
  - `excel_to_dat`: converts a list of excel files to dat files
+ 
+## Read
+- `read_excel_all`: reads in all the sheets from an excel file. Built on top of `readxl::read_excel`.
